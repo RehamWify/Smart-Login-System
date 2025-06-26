@@ -1,0 +1,190 @@
+*{
+    
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+.w-65{
+    width: 65%;
+
+}
+
+
+
+.bg-section{
+    /*width: 100%;
+    *//*min-width: 100%;
+    */margin: 0;
+    padding: 0;
+    background-image: url("../images/pexels-diimejii.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* animation: animateBg 0.5s linear infinite;
+    -webkit-animation: animateBg 0.5s linear infinite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* transition: all 5s ease;
+    -webkit-transition: all 5s ease;
+    -moz-transition: all 5s ease;
+    -ms-transition: all 5s ease;
+    -o-transition: all 5s ease; */
+}
+
+/* .bg-text{
+    animation: animateBg 0.5s linear infinite;
+    -webkit-animation: animateBg 0.5s linear infinite;
+} */
+
+@keyframes animateBg {
+    100% {
+        filter: hue-rotate(360deg);
+        -webkit-filter: hue-rotate(360deg);
+}
+}
+
+/* .bg-212529{
+    background-color: #212529;
+} */
+h1{
+    color: #fff;
+    font-size: 40px;
+    margin-bottom:8px ;
+    /* text-align: center; */
+}
+/* .smart-app{
+    width: 75%;
+    margin :10px auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.login{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+    color: #fff;
+    text-align: center;
+    flex-direction: column;
+    /* width: 50%; */
+    width: 500px;
+    /* height: 450px; */
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+input{
+    margin: 30px 0;
+    width: 310px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+/* input label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+} */
+
+.login button{
+    margin: 20px 0;
+    font-size: 16px ;
+  
+}
+input::placeholder{
+    color: rgb(211, 205, 205);
+    font-weight: lighter;
+}
+input:focus{
+    border-color:#48d2ee !important ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration-line: underline;
+    color: white;
+}
+
+.logo a {
+    font-size: 20px;
+
+}
+.logo a:hover {
+    text-decoration-line: none;
+
+}
+
+.home {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/pexels-diimejii.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    /* animation: animateBg 0.5s linear infinite; */
+    /* -webkit-animation: animateBg 0.5s linear infinite; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+
+}
+
+/* .bg-welcome{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+} */
+
+.home .smart-app{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.toggler-icon{
+    color: #ffffff80;
+}
+.border-ffffff80{
+    border-color: #ffffff80;
+}
+
+@media screen and (max-width: 450px) {
+    .login{
+        width: 100%;
+        height: 100vh;
+        border: none;
+        border-radius: 0;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+}
